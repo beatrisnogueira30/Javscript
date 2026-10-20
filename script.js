@@ -186,7 +186,7 @@ console.log("bom")
     console.log("Insuficiente")
 }
 
-// 06 — Dia da semana-Receba um número inteiro de 1 a 7 e exiba o dia da semana correspondente. Considere **1 como domingo** e **7 como sábado**. Para qualquer outro número, exiba "Dia inválido".
+//06 — Dia da semana-Receba um número inteiro de 1 a 7 e exiba o dia da semana correspondente. Considere **1 como domingo** e **7 como sábado**. Para qualquer outro número, exiba "Dia inválido".
 
 const data = 7
 
@@ -206,6 +206,99 @@ if (data ==1){
 }else if(data==7){
     console.log("domingo")
 }
+
+let idadeDirigir = 19;
+let temCNH = true;
+let temCarro = false;
+
+// && significa "e"
+
+if(idadeDirigir >= 18 && temCNH == true && temCarro == true){
+console.log("Você pode dirigir!")
+}else{
+    console.log("Você Não pode dirigir!")
+}
+
+let ehProfessor = false;
+let ehAluno = false;
+   
+// "||" (oque ta dentro das aspas okk?) significa "ou"
+
+if(ehprofessor == true || ehAluno == true){
+    console.log("Você tem direito a meia-entrada!")
+}else{
+    console.log("você não tem direito a meia-entrada!")
+}
+
+
+
+// ---------------------------------------------------------lição2---------------------------------------------------------
+
+Atividade1 — Número dentro do intervalo 10 e 50
+
+let numero1 = 28;
+if(numero1 > 10 && numero1 < 50){
+    console.log("o número está no intervalo entre 10 e 50");
+}else{
+    // Caso ao contrário, informe que está fora do intervalo.
+    console.log("o número está fora do intervalo entre 10 e 50");
+}
+
+
+
+Atividade2 -  Elegibilidade para estágio
+
+let numero2 = 19;
+if(numero2 > 16 && numero2 <24){
+    console.log("o número está no intervalo entre 16 e 24");
+}else{
+    console.log("o número está fora do intervalo entre 16 e 24");
+} 
+
+
+Atividade3 - Frete grátis
+
+     
+let valorCompra = 152;
+let ehAssinante = true;
+if(valorCompra >= 200 || ehAssinante == true){
+    console.log("Você tem direito a frete grátis!")
+}else{
+    console.log("Você não tem direito a frete grátis!")
+}
+
+
+
+Atividade4 - Dia de descanso
+
+const dia = Quinta 
+
+if(dia "sabado" || dia == const ){
+    console.log("Fim de semana")
+}else{
+    console.log("Dia útil")
+}
+
+
+
+Atividade5 — Promoção especial
+
+let valorCompra1 = 200;
+let assinante2 = true;
+let cupomValido = false;
+let valorFINAL = valorCompra1 * 0.85
+
+if (valorCompra >= 150 && assinante2 == true  || cupomValido == true){
+    console.log(`o desconto foi aplicado e o valor final é ${valorFINAL}`)
+
+}else {
+    console.log(`o desconto não foi aplicado e o valor final é ${valorCompra1}`)
+}
+
+
+
+
+
 
 
 
